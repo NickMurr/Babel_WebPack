@@ -3,6 +3,7 @@ import { person, sayHello } from './lib';
 // console.log(person);
 // console.log(sayHello('Brad'));
 
+
 async function getPosts() {
   const response = await fetch('https://jsonplaceholder.typicode.com/posts');
 
